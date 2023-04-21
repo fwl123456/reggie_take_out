@@ -1,6 +1,7 @@
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\SetmealDishService.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\impl\EmployeeServiceImpl.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\entity\Employee.java
+F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\controller\ShoppingCartController.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\mapper\DishFlavorMapper.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\config\MybatisPlusConfig.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\DishService.java
@@ -10,6 +11,7 @@ F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\Ad
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\entity\Dish.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\filter\LoginCheckFilter.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\UserService.java
+F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\entity\ShoppingCart.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\SetmealService.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\impl\UserServiceImpl.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\entity\DishFlavor.java
@@ -25,12 +27,15 @@ F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\controller
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\mapper\AddressBookMapper.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\dto\DishDto.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\impl\DishSetviceImpl.java
+F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\mapper\ShoppingCartMapper.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\common\CustomException.java
+F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\ShoppingCartService.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\CategoryService.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\common\R.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\impl\AddressBookServiceImpl.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\mapper\SetmealDishMapper.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\common\JacksonObjectMapper.java
+F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\service\impl\ShoppingCartServiceImpl.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\entity\User.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\entity\SetmealDish.java
 F:\develop\workspace\reggie_take_out\src\main\java\com\itheima\reggie\controller\EmployeeController.java
