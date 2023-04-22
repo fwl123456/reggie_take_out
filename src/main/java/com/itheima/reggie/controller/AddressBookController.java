@@ -63,10 +63,12 @@ public class AddressBookController {
     }
 
     // 查询默认地址
-    @GetMapping("default")
+    @GetMapping("/default")
     public R<AddressBook> getDefault(){
         // 条件构造器
         LambdaQueryWrapper<AddressBook> queryWrapper = new LambdaQueryWrapper<>();
+        // 先传入当前用户id
+        queryWrapper.eq(AddressBook::getUserId, BaseContext.getCurrentId());
         queryWrapper.eq(AddressBook::getIsDefault, 1);
         //sql:select * from address_book where user_id = ? and is_default = 1
         AddressBook addressBook = addressBookService.getOne(queryWrapper);

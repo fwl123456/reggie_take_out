@@ -103,6 +103,11 @@ public class ShoppingCartController {
     }
 
 
+    /**
+     * 移除购物车商品
+     * @param shoppingCart
+     * @return
+     */
     @PostMapping("/sub")
     public R<String> sub(@RequestBody ShoppingCart shoppingCart){
         // 得到当前用户id
