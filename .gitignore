@@ -38,3 +38,5 @@ third-party/nacos/data/
 third-party/nacos/work/
 
 file/
+# 忽略application.yml文件
+application.yml

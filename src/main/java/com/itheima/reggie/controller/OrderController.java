@@ -47,4 +47,13 @@ public class OrderController {
         orderService.page(pageInfo, queryWrapper);
         return R.success(pageInfo);
     }
+
+    @GetMapping("/userPage")
+    public R<Page> userPage(int page, int pageSize){
+        // 构造分页构造器
+        Page<Orders> pageInfo = new Page<>(page, pageSize);
+        orderService.page(pageInfo);
+
+        return R.success(pageInfo);
+    }
 }
